@@ -421,6 +421,11 @@
                             </div>
 
                             <div class="field">
+                                <label>Motivo del Riesgo</label>
+                                <input type="text" id="motivoRiesgo" class="input" placeholder="Motivo...">
+                            </div>
+
+                            <div class="field">
                                 <label>Fecha de Resolución</label>
                                 <input type="text" id="fechaResolucion" class="input-locked" readonly>
                             </div>
@@ -445,7 +450,28 @@
 
                             </div>
 
-                            <div class="field span-2">
+                            <div class="field span-3">
+                                <label>&nbsp;</label>
+                                <div></div>
+                            </div>
+
+                            <div class="field">
+                                <label>Recurrencia del Caso</label>
+                                <input type="text" id="recurrenciaCaso" class="input"
+                                    placeholder="Cuantas veces a pasado a Comite...">
+                            </div>
+
+                            <div class="field span-2" id="condicionesAutorizacion">
+                                <div style="display: flex; justify-content: space-between; align-items: center;">
+                                    <label style="margin-bottom: 0;">Condiciones de Autorización</label>
+                                    <button type="button" id="btnLimpiarCondiciones" class="pill pill-ghost"
+                                        style="padding: 4px 12px; font-size: 11px;">Limpiar</button>
+                                </div>
+                                <textarea id="condicionesAutorizacionText" class="textarea" rows="4"
+                                    placeholder="Condiciones de autorización..."></textarea>
+                            </div>
+
+                            <div class="field span-3">
                                 <label>&nbsp;</label>
                                 <div></div>
                             </div>
